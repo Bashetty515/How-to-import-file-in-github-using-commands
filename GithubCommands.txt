@@ -1,0 +1,14 @@
+Before import the file use user-name and password:
+For do this one download Git Bash from online and Click on desktop file, we will see a command text
+Use below commands to link your git hub profile to Git-bash.
+
+ git config --global user.name "Bashetty515"
+ git config --global user.email arun.bashetty111@gmail.com
+
+
+Commands to import file in git hub:
+ git init
+ git add .
+ git commit -m "First commit"
+ git remote add origin (Copy Link from website)
+ git push origin file-name
